@@ -12,8 +12,8 @@ def lcg2(seed):
 
 rand = lcg(12398)
 rngs = [next(rand) for _ in range(100000)]
-
+'''
 plt.hist(rngs, bins=10, edgecolor='k', color = '#EE82EE', histtype = 'bar', rwidth = 0.92)
 plt.xlim(0, 1)
 plt.show()
-
+'''
